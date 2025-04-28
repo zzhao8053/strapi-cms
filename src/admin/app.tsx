@@ -1,0 +1,38 @@
+export default {
+  config: {
+    locales: ["zh-Hans"],
+    translations: {
+      "zh-Hans": {
+        "Auth.form.welcome.title": "欢迎使用",
+        "Auth.form.welcome.sunTitle": "登录您的CMS账户",
+        "Auth.form.email.placeholder": "请输入您的邮箱",
+        "global.localeToggle.label": "语言切换",
+        "content-manager.plugin.name": "内容管理",
+        "content-manager.plugin.description": "内容管理插件",
+        "cloud.plugin.name": "云存储",
+        "cloud.plugin.description": "云存储插件",
+        "review-workflows.plugin.name": "审核工作流",
+        "review-workflows.plugin.description": "审核工作流插件",
+        "content-history.plugin.name": "内容历史",
+        "content-history.plugin.description": "内容历史插件",
+        "Settings.application.header": "应用设置",
+        "list.asset.at.finished": "已完成",
+        "HomePage.header.title": "你好 {name}",
+        "HomePage.header.subtitle": "欢迎来到您的管理面板",
+        "users-permissions.List.button.roles": "添加角色",
+        "app.utils.show-bound-route": "显示绑定路由",
+        "components.placeholder.select": "请选择",
+        "pages.PurchaseRelease.description": "将内容分组并一起发布更新",
+        "pages.PurchaseRelease.perks1": "向发布中添加许多条目",
+        "pages.PurchaseRelease.perks2": "快速识别包含错误的条目",
+        "pages.PurchaseRelease.perks3": "购买发布福利",
+        "plugin::users-permissions.user": "用户",
+        User: "用户",
+        "documentation.pages.SettingsPage.Button.save": "保存",
+      },
+    },
+    notifications: {
+      releases: false,
+    },
+  },
+};

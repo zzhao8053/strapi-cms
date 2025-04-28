@@ -1,1 +1,5 @@
-export default () => ({});
+export default ({ env }) => ({
+  documentation: {
+    enabled: true,
+  },
+});
