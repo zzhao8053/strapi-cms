@@ -31,6 +31,7 @@ export default {
         "documentation.pages.SettingsPage.Button.save": "保存",
       },
     },
+    tutorials: false,
     notifications: {
       releases: false,
     },
